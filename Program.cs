@@ -5,8 +5,8 @@ for (int i = 0; i < Array.Length; i++)
 {
     if (Array[i].Length < 4) n++;
 }
-
 string[] NewArray = new string[n];
+
 void FillNewArray()
 {
     int j = 0;
